@@ -1,6 +1,21 @@
 # RandomNumber
 
+> **Status: archived.** A tiny .NET example from 2022, kept as a reference.
+
 Get a random number in your CLI 🧇
+
+## Run it
+
+You need the [.NET SDK](https://dotnet.microsoft.com/download). The project targets .NET 6, so on a newer SDK change `TargetFramework` in the `.csproj` first.
+
+```sh
+dotnet run
+# 1634587412
+```
+
+It prints one random non-negative integer (`Random.Next()`) and exits.
+
+[Program.cs](./Program.cs) is three lines: `new Random()`, `Next()`, `Console.WriteLine`.
 
 ## Support
 
